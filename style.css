@@ -1,0 +1,69 @@
+.html,body{    
+    font-family: Lucida Sans ;
+    background-image: url(./image/mars.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 10px;
+    font-weight: 600;
+    color:white;
+    align-items: center;
+    text-shadow: 2px 2px 5px;     
+}
+
+.leftfield{
+    padding: 10px;
+    margin:20px;
+    font-size: large;
+    float: left;
+    border: 20px;
+} 
+.container{
+    padding: 10px;
+    width: 1200px;
+    height: 125px;
+    margin:left;
+}
+.NewGame{
+    background-color:#ffea71; 
+    border:10px,solid, black;
+    color:black;
+    padding: 14px 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;     
+}
+.button{
+    background-color: palevioletred;   
+    border:10px,solid, black;
+    color:white;
+    padding: 14px 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;    
+}
+.button:focus{
+    background-color: #ffea71;
+    color: black;
+}
+.button:hover{
+    background-color: #ffea71; 
+    color: black;
+}
+.button:focus{
+    background-color: #ffea71
+    
+}
+.canvas {
+    display: block; 
+}
+
+
